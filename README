@@ -1,0 +1,7 @@
+This is a Spring boot demo application that performs RESTful services on an H2 database. The app has can create, get and delete users, and a user may have posts which can be created and retrieved. 
+To test the application - 
+Run the program then head to the swagger link to see all of the requests
+http://localhost:8080/swagger-ui.html
+The requests that are in the user-jpa-controller are the ones that use the H2 database and you can see the database by going to the following link:
+http://localhost:8080/h2-console
+JDBC URL: jdbc:h2:mem:testdb
